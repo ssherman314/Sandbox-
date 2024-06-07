@@ -1,4 +1,4 @@
-# To setup the virtual environment (contain pip dependencies):
+# To setup the virtual environment (contain pip dependencies)
 
 ```python3 -m venv ./venv```
 
