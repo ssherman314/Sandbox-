@@ -12,6 +12,7 @@ import polars as pl
 
 
 MedianTPM = pl.scan_csv('venv/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_median_tpm.csv', separator='\t')
+
 GeneReads = pl.scan_csv('venv/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_reads.csv', separator='\t')
 GeneTPM = pl.scan_csv('venv/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_tpm.csv', separator='\t')
 

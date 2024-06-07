@@ -2,12 +2,9 @@
 
 ```python3 -m venv ./venv```
 
-
-
 ```source ./venv/bin/activate```
 
 ```pip3 install -r requirements.txt\```
-
 
 ## After that, if you want to download all the GTeX datasets into the .venv, run ./setup.sh
 
